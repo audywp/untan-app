@@ -5,7 +5,7 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <div className='border-black border-2 p-4'>
-      <h4 className='border-b-2 py-2'>New Testing Example</h4>
+      <h4 className='border-b-2 py-2'>New Testing Example with vercel</h4>
 
       <div className='my-2 bg-slate-50'>
         <h1>Why do we need Test ? for now</h1>
