@@ -8,7 +8,7 @@ export default function Home() {
       <h4 className='border-b-2 py-2'>New Testing Example with vercel v2</h4>
 
       <div className='my-2 bg-slate-50'>
-        <h1>Why do we need Test ?</h1>
+        <h1>Why do we need Test ? {process.env.REACT_APP_NAME}</h1>
         <p>
           To guarantee our code quality. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate qui
           doloremque magni odit quia, fugit autem. Voluptates earum at assumenda quo nulla! At illo laboriosam tenetur
